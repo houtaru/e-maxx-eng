@@ -148,7 +148,7 @@ For convenience of description, let $g_{x, y} = f_{i, x \cdot w_i + y} ,\space g
 
 $$g_{x, y} = \max_{k=0}^{k_i}(g'_{x-k, y} + v_i \cdot k)$$
 
-Further, let $G_{x, y} = g'_{x, y} - v_i \cdot x$. Then the transition rule can be expressed as:
+Further, let $G_{x, y} = g'_{x, y} + v_i \cdot x$. Then the transition rule can be expressed as:
 
 $$g_{x, y} \gets \max_{k=0}^{k_i}(G_{x-k, y}) + v_i \cdot x$$
 
